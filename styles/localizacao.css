@@ -1,0 +1,42 @@
+.local__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 2em;
+}
+
+.local__container_distancia {
+    color: var(--cor-marrom);
+    font-size: 20px;
+}
+
+.local__container_distancia_lista {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.local__container_distancia_lista_item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 2px solid var(--cor-media);
+    padding: 0.7em;
+    border-radius: 16px;
+}
+
+.local__container_distancia_lista_item_img {
+    width: 40px;
+    height: 40px;
+}
+
+.local__container_distancia_lista_item_div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.local__container_distancia_lista_item_tempo {
+    color: var(--cor-media);
+}

@@ -1,0 +1,20 @@
+@import url(styles/header.css);
+@import url(styles/acomodacoes.css);
+@import url(styles/localizacao.css);
+@import url(styles/sobre.css);
+@import url(styles/avaliacoes.css);
+@import url(styles/rodape.css);
+
+:root {
+    --cor-creme: #fffdf9;
+    --cor-marrom: #3D372E;
+    --cor-media: #D9CAB8;
+}
+
+body {
+    background-color: #fdf7ee;
+    font-family: "Rubik", serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
